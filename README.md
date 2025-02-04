@@ -22,7 +22,7 @@ https://fki.tic.heia-fr.ch/databases/iam-handwriting-database
 ### Prerequisites
 Ensure you have the following dependencies installed:
 `
-pip install tensorflow keras numpy pandas opencv-python matplotlib scikit-learn jiwer autocorrect
+pip install tensorflow keras numpy pandas opencv-python matplotlib scikit-learn jiwer autocorrect keras_tqdm
 `
 
 ## Results
