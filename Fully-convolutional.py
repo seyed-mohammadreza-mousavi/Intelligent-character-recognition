@@ -608,7 +608,7 @@ def build_model():
 
 model = build_model()
 model.summary(line_length=160)
-
+ 
 # model to be used at test time # with 10 epoch CER:16.51, WER:42.69/  with autocorrect: CER:16.76 WER: 32.53
 # using more data on train db: with 10 epoch, same model: CER:16:33, WER:37.85/ with autocorrect: CER:15.77 WER:29.43 
 def decode_batch_predictions(prediction):
